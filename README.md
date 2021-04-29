@@ -8,6 +8,6 @@ Note 1: The algorithm is such that it will sell all balance stocks on the last d
 Note 2: The functions dataset() and find-profits() exist in utils.py to make the code simpler and reusable, do use these functions if you intend on replicating this repository. 
 ## Evaluation 
 The algorithm is seen to be profitable for all known stocks tested except for situations in which the stock price never came back up (for instance, for stocks wherein the company declared bankruptcy). Here is an example of the algorithm tested with the BHARTIARTL stock, wherein strategy 1 implies investing a certain amount of money into the stock and holding on it for the duration of the timeframe, and strategy 2 implies using our EMA algorithm: 
-
+![Figure_1](https://user-images.githubusercontent.com/77375209/116540148-650abd80-a907-11eb-9d47-582b743421eb.png)
 Herein, instead of a specified number of stocks, a specified budget is instantiated and which is further invested into the stocks and further taken out of the stocks repeatedly. 
 Note 3: This project was made for research purposes and in no way exists to motivate individuals into using it to profit from the stock market. 
